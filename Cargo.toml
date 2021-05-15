@@ -3,6 +3,12 @@ name = "rust-performance-timing"
 version = "0.1.0"
 authors = ["Ilya Albrecht <ilya@alfs.me>"]
 edition = "2018"
+repository = "https://github.com/elalfer/rust-performance-timing.git"
+license = "MIT OR Apache-2.0"
+keywords = ["library", "timing", "performance", "criterion"]
+description = """
+Performance measurement library. Supports CPU cycle accurate measurement for x86 platforms.
+"""
 
 [dependencies]
 criterion = "0.3"
