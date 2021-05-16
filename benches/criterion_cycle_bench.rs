@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use rust_performance_timing::CriterionCycleCounter;
-use rust_performance_timing::{const_cycle_loop, cycle_accurate_config};
+use performance_timing::CriterionCycleCounter;
+use performance_timing::{const_cycle_loop, cycle_accurate_config};
 
 pub fn criterion_benchmark(c: &mut Criterion<CriterionCycleCounter>) {
     c.bench_function("cycle_10K", |b| b.iter(|| const_cycle_loop(black_box(10_000))));
