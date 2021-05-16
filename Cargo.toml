@@ -1,5 +1,5 @@
 [package]
-name = "rust-performance-timing"
+name = "performance-timing"
 version = "0.1.0"
 authors = ["Ilya Albrecht <ilya@alfs.me>"]
 edition = "2018"
