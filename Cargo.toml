@@ -1,6 +1,6 @@
 [package]
 name = "performance-timing"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ilya Albrecht <ilya@alfs.me>"]
 edition = "2018"
 repository = "https://github.com/elalfer/rust-performance-timing.git"
